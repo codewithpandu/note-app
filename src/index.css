@@ -96,4 +96,19 @@ h1 {
   .container {
     width: 20rem;
   }
+
+  .component-text {
+    font-size: 1.3rem;
+    margin-left: 0.6rem;
+  }
+
+  .note input,
+  .note button {
+    padding: 0.3rem;
+    margin-right: 1px;
+  }
+
+  .note .note-component input {
+    width: 1.3rem;
+  }
 }
