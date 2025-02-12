@@ -4,7 +4,7 @@ export default function NoteList({ notes, onChange, onDelete }) {
   return (
     <div className="note-list">
       {notes.length === 0 ? (
-        <h3>Data Kosong</h3>
+        <h3>Note masih kosong</h3>
       ) : (
         <ul>
           {notes.map((note) => (
