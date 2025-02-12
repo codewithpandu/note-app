@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 30rem;
+  padding: 1rem;
+}
+
+.note-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-form input {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.note-form button {
+  padding: 1rem;
+}
+
+.note-list h3 {
+  text-align: center;
+}
+
+.note-list ul li {
+  list-style-type: none;
+  margin-left: -2.5rem;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note input,
+.note button {
+  padding: 0.5rem;
+}
+
+.note .note-component {
+  display: flex;
+  width: 100%;
+}
+
+.note .note-component input {
+  width: 1.5rem;
+}
+
+.component {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-text {
+  font-size: 1.7rem;
+  margin-left: 0.6rem;
+}
+
+.component-true {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-true input {
+  flex: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 20rem;
+  }
+}
